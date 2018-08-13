@@ -9,7 +9,7 @@ Laravel package to incorporate beautiful noty notifications into laravel as flas
 
 ## Screenshot
 
-![Main Window](https://raw.github.com/sarfraznawaz2005/noty/master/screen.png)
+![Main Window](https://github.com/sarfraznawaz2005/noty/blob/master/screen.jpg?raw=true)
 
 ## Requirements
 
@@ -64,12 +64,12 @@ noty($message, $type = '', array $options = [])
 In your controllers, you can now do:
 
 ```php
-noty('Default Notification'); // default
-noty('Alert Notification', 'alert');
-noty('Warning Notification', 'info');
-noty('Success Notification', 'success');
-noty('Error Notification', 'error');
-noty('Warning Notification', 'warning');
+noty('Your Message'); // default
+noty('Your Message', 'alert');
+noty('Your Message', 'info');
+noty('Your Message', 'success');
+noty('Your Message', 'error');
+noty('Your Message', 'warning');
 ```
 
 With `$options`, you can also override `noty` config values for individual notifications example:
@@ -97,4 +97,4 @@ Please see the [license file](license.md) for more information.
 [link-packagist]: https://packagist.org/packages/sarfraznawaz2005/noty
 [link-downloads]: https://packagist.org/packages/sarfraznawaz2005/noty
 [link-author]: https://github.com/sarfraznawaz2005
-[link-contributors]: ../../contributors]
+[link-contributors]: https://github.com/sarfraznawaz2005/noty/graphs/contributors
