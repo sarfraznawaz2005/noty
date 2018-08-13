@@ -67,23 +67,29 @@ noty($message, $type = '', array $options = [])
 In your controllers, you can now do:
 
 ```php
-noty('Your Message'); // default
-noty('Your Message', 'alert');
-noty('Your Message', 'info');
+public function store()
+{
+    noty('Success Message', 'success');
+
+    return redirect()->back();
+}
+```
+
+Following are types of notifications you can send:
+
+```php
+noty('Your Message'); // default (info)
 noty('Your Message', 'success');
 noty('Your Message', 'error');
 noty('Your Message', 'warning');
+noty('Your Message', 'alert');
 ```
 
 With `$options`, you can also override `noty` config values for individual notifications example:
 
 ```php
-noty('Alert Notification', null, ['layout' => 'top');
+noty('My Notification', null, ['layout' => 'top', 'timeout' => 5000);
 ```
-
-## Security
-
-If you discover any security related issues, please email author email instead of using the issue tracker.
 
 ## Credits
 
