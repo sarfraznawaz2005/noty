@@ -15,7 +15,7 @@ return [
     'theme' => 'metroui',
 
     // false, 1000, 3000, 5000, etc. Delay for closing event in milliseconds (ms). Set 'false' for sticky notifications.
-    'timeout' => 5000,
+    'timeout' => 3000,
 
     // true, false - Displays a progress bar if timeout is not false.
     'progressBar' => true,
