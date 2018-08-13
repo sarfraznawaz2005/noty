@@ -2,6 +2,7 @@
   "name": "sarfraznawaz2005/noty",
   "description": "Laravel package to incorporate noty flash notifications into laravel.",
   "license": "MIT",
+  "type": "library",
   "authors": [
     {
       "name": "Sarfraz Ahmed",
@@ -38,5 +39,6 @@
       }
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "version": "0.0.0"
 }

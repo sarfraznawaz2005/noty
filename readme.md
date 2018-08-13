@@ -31,6 +31,9 @@ Add Service Provider to `config/app.php` in `providers` section
 ```php
 Sarfraznawaz2005\Noty\NotyServiceProvider::class,
 ```
+
+---
+
 Publish package's config file by running below command:
 
 ```bash
