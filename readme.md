@@ -88,7 +88,7 @@ noty('Your Message', 'alert');
 With `$options`, you can also override `noty` config values for individual notifications example:
 
 ```php
-noty('My Notification', null, ['layout' => 'top', 'timeout' => 5000);
+noty('My Notification', null, ['layout' => 'top', 'timeout' => 5000]);
 ```
 
 ## Credits

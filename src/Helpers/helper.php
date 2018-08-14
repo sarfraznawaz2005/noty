@@ -18,7 +18,7 @@ if (!function_exists('noty')) {
     }
 }
 
-if (!function_exists('extract_quoted')) {
+if (!function_exists('extractQuoted')) {
     function extractQuoted(array $array)
     {
         $string = '';

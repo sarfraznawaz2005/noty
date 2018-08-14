@@ -8,8 +8,6 @@
 
 namespace Sarfraznawaz2005\Noty\Exceptions;
 
-
 class NotyException extends \Exception
 {
-
 }

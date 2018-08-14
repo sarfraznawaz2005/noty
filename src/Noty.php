@@ -45,10 +45,13 @@ class Noty
             throw new NotyException('Invalid type specified. Valid types include: ' . implode(', ', $types));
         }
 
-        $messages[] = ['text' => $message, 'type' => $type];
+        $messages[] = [
+            'text' => $message,
+            'type' => $type,
+            'options' => $options
+        ];
 
         $this->session->flash('noty.messages', $messages);
         $this->session->flash('noty.config', $options);
-
     }
 }
