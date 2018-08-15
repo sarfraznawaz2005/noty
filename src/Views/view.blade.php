@@ -12,8 +12,8 @@
                 progressBar: '{{$item['options']['progressBar']}}',
                 closeWith: [{!! extractQuoted($item['options']['closeWith']) !!}],
                 animation: {
-                    open: 'animated {{$item['options']['animation']['open']}}',
-                    close: 'animated {{$item['options']['animation']['close']}}'
+                    open: '{{$item['options']['animation']['open']}}',
+                    close: '{{$item['options']['animation']['close']}}'
                 },
                 sounds: {
                     sources: [{!! extractQuoted($item['options']['sounds']['sources']) !!}],

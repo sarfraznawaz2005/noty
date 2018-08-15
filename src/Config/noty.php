@@ -25,8 +25,8 @@ return [
 
     // Animation: by default animated.css is used.
     'animation' => [
-        'open' => 'bounceInRight',
-        'close' => 'bounceOutRight',
+        'open' => 'animated bounceInRight',
+        'close' => 'animated bounceOutRight',
     ],
 
     // Sound Options
