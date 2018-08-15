@@ -1,6 +1,5 @@
 @if(session()->has('noty.messages'))
     <script type="text/javascript">
-
         (function () {
             @foreach (session('noty.messages') as $item)
             new Noty({
@@ -33,6 +32,5 @@
             }).show();
             @endforeach
         })();
-        
     </script>
 @endif

@@ -23,7 +23,7 @@ return [
     // "click" or "button" or both.
     'closeWith' => ['click', 'button'],
 
-    // Animations
+    // Animations: Animate.css must be included
     'animation' => [
         'open' => 'animated bounceInRight',
         'close' => 'animated bounceOutRight',
