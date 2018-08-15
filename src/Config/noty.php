@@ -23,7 +23,7 @@ return [
     // "click" or "button" or both.
     'closeWith' => ['click', 'button'],
 
-    // Animation: by default animated.css is used.
+    // Animations
     'animation' => [
         'open' => 'animated bounceInRight',
         'close' => 'animated bounceOutRight',
