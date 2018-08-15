@@ -33,5 +33,6 @@
             }).show();
             @endforeach
         })();
+        
     </script>
 @endif
