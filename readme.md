@@ -47,7 +47,7 @@ Before using this package, make sure you include [noty](https://github.com/needi
 
 ```html
 <head>    
-    <link rel="stylesheet" href="/noty.css"></script>
+    <link rel="stylesheet" href="/noty.css"/>
     <script type="text/javascript" src="/noty.js"></script>
 </head>
 ```
