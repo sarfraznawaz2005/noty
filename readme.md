@@ -39,7 +39,7 @@ Publish package's config file by running below command:
 ```bash
 $ php artisan vendor:publish --provider="Sarfraznawaz2005\Noty\NotyServiceProvider"
 ```
-It should publish `noty.php` file under `config` folder.
+It should publish `config/noty.php` config file.
 
 ## Setup Noty
 

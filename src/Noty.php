@@ -52,6 +52,5 @@ class Noty
         ];
 
         $this->session->flash('noty.messages', $messages);
-        $this->session->flash('noty.config', $options);
     }
 }
